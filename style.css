@@ -1,0 +1,32 @@
+#photos img{
+    width: 100%;
+}
+
+#photos img{
+    height: 240px;;
+}
+
+.well{
+
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 5px;
+    background-color: yellow;
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color: yellow;
+}
+
+h5{
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 30px;
+}
