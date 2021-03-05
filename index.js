@@ -1,3 +1,4 @@
+
 $(document).ready(() => {
   $("#serach-form").on("submit", (e) => {
     let searchValue = $("#search-text").val();
@@ -22,11 +23,10 @@ function getContent(searchValue) {
 
       $.each(data, (index, photo) => {
         output += `
-            <div class="col-md-3">
+            <div id="card-container" class="col-md-3">
             <div class="well text-center">
               <img src="${photo.src.large}">
-              <h5>${photo.photographer}</h5>
-              <a onclick="photoSelected('${photo.id}')" class="btn " href="#">Photo Details</a>
+              <h5 id="photo-text">Author <br/>${photo.photographer}</h5>
             </div>
           </div>
             `;
